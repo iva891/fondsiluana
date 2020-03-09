@@ -1,0 +1,311 @@
+* {
+    /* border: 1px solid #000000; */
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #4c4c4c;
+}
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.h1 {
+    font-size: 24px;
+  }
+
+@media (min-width: 576px) {
+    .h1 {
+      font-size: 24px;
+    }
+    .main-quote {
+        height: 200px;
+    }
+  }
+
+@media (min-width: 768px) {
+    .h1 {
+      font-size: 24px;
+    }
+  }
+  /* на md */
+  @media (min-width: 992px) {
+    .h1 {
+      font-size: 42px;
+    }
+    .main-quote {
+        height: 260px;
+    }
+  }
+  /* на lg */
+  @media (min-width: 1200px) {
+    .h1 {
+      font-size: 42px;
+    }
+  }
+
+.cormorant {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  color: #2b2b2b;
+}
+
+.text-gold {
+    color: #F4CE77;
+}
+
+.bg-gold {
+    background-color: #F4CE77;
+}
+
+.text-scarlet {
+    color: #E20613;
+}
+
+.bg-scarlet {
+    background-color: #E20613;
+}
+
+.small-text {
+    font-size: 0.65rem;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a:focus,
+.navbar-nav a:active,
+.active-page {
+    border-top: 1px solid #F4CE77;
+    padding-top: 7px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    border: none;
+}
+
+.red-fill {
+    height: 33px;
+
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+    border-bottom: 2px solid #F4CE77;
+}
+
+.header-btn {
+    position: relative;
+    width: 210px;
+    height: 30px;
+    border: 1px solid #E20613;
+    border-radius: 3px;
+    border-top-right-radius: 12px;
+
+    color: #ffffff;
+
+}
+
+.header-btn p::after {
+    content: "";
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    top: 0px;
+    right: -14px;
+ 
+
+    background-image: url("../img/heart-white.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+
+}
+
+.header-btn:hover,
+.header-btn:focus,
+.header-btn:active {
+    color: #E20613;
+    background-color: #ffffff;
+}
+
+
+.main-author::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    width: 60px;
+    height: 1px;
+    background-color: #F4CE77;
+}
+
+.siluan-1 {
+    position: absolute;
+    left: 0px;
+    top: 60%;
+    max-width: 10%;
+}
+
+.siluan-2 {
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+    max-width: 10%;
+}
+
+.progress {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.help-btn {
+    position: relative;
+    margin: 30px;
+    border: 1px solid #E20613;
+    border-radius: 3px;
+    border-top-right-radius: 12px;
+
+}
+
+.help-btn p::after {
+    content: "";
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    top: 0px;
+    right: -14px;
+
+    background-image: url("../img/heart-white.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+
+}
+
+.help-btn:hover,
+.help-btn:focus,
+.help-btn:active {
+    color: white;
+    background-color: #E20613;
+}
+
+.gold-line {
+    width: 60px;
+    height: 1px;
+    background-color: #F4CE77;
+}
+
+.detail-button:hover {
+    border-bottom: 2px solid #F4CE77;
+    color: #000000;
+}
+
+.news-date {
+    background-image: url("../img/news-data-border.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+
+.news-date .h1 {
+    font-size: 44px;
+}
+
+footer {
+    background-color: #f6f6f6;
+}
+
+.telephone {
+    position: relative;
+    height: 30px;
+}
+
+.telephone:hover,
+.telephone:focus,
+.telephone:active {
+    border-bottom: 2px solid #F4CE77;
+}
+
+
+.telephone::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 7px;
+    left: 0px;
+ 
+    background-image: url("../img/telephone.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+.place-address {
+    position: relative;
+
+}
+
+.place-address::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 22px;
+    top: -3px;
+    left: 17px;
+ 
+    background-image: url("../img/facebook-placeholder-for-locate-places-on-maps.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+.footer-gold-line {
+    width: 140px;
+    height: 1px;
+    background-color: #F4CE77;
+}
+
+
+.instagram {
+    width: 33px;
+    height: 30px;
+    background-image: url("../img/instagram.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    width: 33px;
+    height: 30px;
+    background-image: url("../img/facebook.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.vk {
+    width: 33px;
+    height: 30px;
+
+    background-image: url("../img/vk.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.instagram:hover,
+.instagram:focus,
+.instagram:active, 
+.facebook:hover,
+.facebook:focus,
+.facebook:active, 
+.vk:hover,
+.vk:focus,
+.vk:active {
+    opacity: 0.5;
+    border: 2px solid #F4CE77;
+    border-radius: 5px;
+}
